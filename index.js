@@ -2,7 +2,7 @@ const express = require("express");
 global.app = express();
 
 app.get("/", (req, res) => {
-    res.status(200).send(`api test route`);
+    res.status(400).send(`api test route`);
 });
 
 app.listen(4001, () => {
