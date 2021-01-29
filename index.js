@@ -6,5 +6,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(4001, () => {
-    console.log(`API running on ====>  4001`)
+    console.log(`API running on ====>  4001 ${process.env.NAME}`)
 });
